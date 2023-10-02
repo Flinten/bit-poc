@@ -1,11 +1,9 @@
 /**
  * @see https://bit.dev/reference/jest/jest-config
  */
-const { jestConfig } = require('@teambit/react.react-env');
+const { jestConfig } = require("@teambit/react.react-env");
 
-const {
-  generateNodeModulesPattern,
-} = require('@teambit/dependencies.modules.packages-excluder');
+const { generateNodeModulesPattern, } = require("@teambit/dependencies.modules.packages-excluder");
 
 const packagesToExclude = ['a-package-to-exclude'];
 
@@ -14,12 +12,13 @@ const packagesToExclude = ['a-package-to-exclude'];
  * the following config excludes all node_modules, except for Bit components, style modules, and the packages that are listed.
  */
 module.exports = {
-  ...jestConfig,
-  transformIgnorePatterns: [
-    '^.+.module.(css|sass|scss)$',
-    generateNodeModulesPattern({
-      packages: packagesToExclude,
-      excludeComponents: true,
-    }),
-  ],
+    ...jestConfig,
+    transformIgnorePatterns: [
+        '^.+.module.(css|sass|scss)$',
+        generateNodeModulesPattern({
+            packages: packagesToExclude,
+            excludeComponents: true,
+        }),
+    ],
 };
+

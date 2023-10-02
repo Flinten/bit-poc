@@ -1,5 +1,6 @@
-import { HelloWorldApp } from './hello-world-app.app-root';
+import { HelloWorldApp } from "./hello-world-app.app-root";
 
 export const HelloWorldAppBasic = () => {
-  return <HelloWorldApp />;
+    return <HelloWorldApp />;
 };
+

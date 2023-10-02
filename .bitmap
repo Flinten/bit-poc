@@ -10,119 +10,28 @@
 
 {
     "get-hello-world": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "org.scope-name",
+        "scope": "flinten.privat-poc",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/get-hello-world",
-        "config": {
-            "teambit.node/node@1.0.6": {},
-            "teambit.envs/envs": {
-                "env": "teambit.node/node"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "learnbit.hello-world",
-                    "name": "get-hello-world",
-                    "version": "0.0.15"
-                }
-            }
-        }
+        "rootDir": "scope-name/get-hello-world"
     },
     "hello-world-app": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "org.scope-name",
+        "scope": "flinten.privat-poc",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/hello-world-app",
-        "config": {
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "@teambit/react.apps.react-app-types": "1.0.2"
-                    },
-                    "devDependencies": {
-                        "@teambit/react.apps.react-app-types": "1.0.2"
-                    }
-                }
-            },
-            "teambit.envs/envs": {
-                "env": "org.scope-name/my-react-env"
-            },
-            "teambit.harmony/application": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "learnbit.hello-world",
-                    "name": "hello-world-app",
-                    "version": "0.0.24"
-                }
-            },
-            "org.scope-name/my-react-env": {}
-        }
+        "rootDir": "scope-name/hello-world-app"
     },
     "my-react-env": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "org.scope-name",
+        "scope": "flinten.privat-poc",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/my-react-env",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {}
-            },
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "teambit.react",
-                    "name": "react-env-extension",
-                    "version": "1.0.17"
-                }
-            }
-        }
+        "rootDir": "scope-name/my-react-env"
     },
     "ui/hello-world": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "org.scope-name",
+        "scope": "flinten.privat-poc",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/ui/hello-world",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "org.scope-name/my-react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.preview/preview": {},
-            "teambit.component/dev-files": {},
-            "teambit.pipelines/builder": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "learnbit.hello-world",
-                    "name": "ui/hello-world",
-                    "version": "0.0.19"
-                }
-            },
-            "org.scope-name/my-react-env": {}
-        }
+        "rootDir": "scope-name/ui/hello-world"
     },
     "$schema-version": "16.0.0"
 }

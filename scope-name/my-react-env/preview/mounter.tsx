@@ -1,5 +1,5 @@
-import React from 'react';
-import { createMounter } from '@teambit/react.mounter';
+import React from "react";
+import { createMounter } from "@teambit/react.mounter";
 
 /**
  * provide your component compositions (preview) with the context they need to run.
@@ -7,8 +7,10 @@ import { createMounter } from '@teambit/react.mounter';
  * components added here as providers, should be listed as host-dependencies in your host-dependencies.ts file.
  * @see https://bit.dev/docs/react-env/component-previews#composition-providers
  */
-export function MyReactProvider({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+export function MyReactProvider({ children }: {
+    children: React.ReactNode;
+}) {
+    return <>{children}</>;
 }
 
 /**
@@ -17,3 +19,4 @@ export function MyReactProvider({ children }: { children: React.ReactNode }) {
  * @see https://docs/react-env/component-previews#composition-mounter
  */
 export default createMounter(MyReactProvider) as any;
+

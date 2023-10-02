@@ -3,8 +3,9 @@
  * most of your peer dependencies should be listed here to avoid duplications in the preview.
  */
 export default [
-  '@teambit/mdx.ui.mdx-scope-context',
-  '@mdx-js/react',
-  'react',
-  'react-dom',
+    '@teambit/mdx.ui.mdx-scope-context',
+    '@mdx-js/react',
+    'react',
+    'react-dom',
 ];
+

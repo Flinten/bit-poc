@@ -1,5 +1,6 @@
-import { HelloWorld } from './hello-world';
+import { HelloWorld } from "./hello-world";
 
 export const BasicHelloWorld = () => {
-  return <HelloWorld />;
+    return <HelloWorld />;
 };
+

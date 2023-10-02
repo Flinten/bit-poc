@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "org.scope-name",
+    "defaultScope": "flinten.privat-poc",
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
@@ -72,5 +72,5 @@
       "teambit.react/react-env"
     ]
   },
-  "org.scope-name/hello-world-app": {}
+  "flinten.privat-poc/hello-world-app": {}
 }
