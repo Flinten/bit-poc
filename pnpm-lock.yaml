@@ -112,23 +112,23 @@ importers:
         specifier: 5.9.5
         version: 5.9.5
 
-  node_modules/.bit_roots/org.scope-name_my-react-env:
+  node_modules/.bit_roots/flinten.privat-poc_my-react-env:
     dependencies:
+      '@flinten/privat-poc.get-hello-world':
+        specifier: workspace:*
+        version: file:scope-name/get-hello-world
+      '@flinten/privat-poc.hello-world-app':
+        specifier: workspace:*
+        version: file:scope-name/hello-world-app(react-dom@18.2.0)
+      '@flinten/privat-poc.my-react-env':
+        specifier: workspace:*
+        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
+      '@flinten/privat-poc.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
-      '@org/scope-name.get-hello-world':
-        specifier: workspace:*
-        version: file:scope-name/get-hello-world
-      '@org/scope-name.hello-world-app':
-        specifier: workspace:*
-        version: file:scope-name/hello-world-app(react-dom@18.2.0)
-      '@org/scope-name.my-react-env':
-        specifier: workspace:*
-        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
-      '@org/scope-name.ui.hello-world':
-        specifier: workspace:*
-        version: file:scope-name/ui/hello-world
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.0
         version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -148,56 +148,56 @@ importers:
         specifier: 6.8.1
         version: 6.8.1(react-dom@18.2.0)(react@18.2.0)
     dependenciesMeta:
-      '@org/scope-name.get-hello-world':
+      '@flinten/privat-poc.get-hello-world':
         injected: true
-      '@org/scope-name.hello-world-app':
+      '@flinten/privat-poc.hello-world-app':
         injected: true
-      '@org/scope-name.my-react-env':
+      '@flinten/privat-poc.my-react-env':
         injected: true
-      '@org/scope-name.ui.hello-world':
+      '@flinten/privat-poc.ui.hello-world':
         injected: true
 
   node_modules/.bit_roots/teambit.envs_env:
     dependencies:
-      '@org/scope-name.get-hello-world':
+      '@flinten/privat-poc.get-hello-world':
         specifier: workspace:*
         version: file:scope-name/get-hello-world
-      '@org/scope-name.hello-world-app':
+      '@flinten/privat-poc.hello-world-app':
         specifier: workspace:*
         version: file:scope-name/hello-world-app(react-dom@18.2.0)
-      '@org/scope-name.my-react-env':
+      '@flinten/privat-poc.my-react-env':
         specifier: workspace:*
         version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
-      '@org/scope-name.ui.hello-world':
+      '@flinten/privat-poc.ui.hello-world':
         specifier: workspace:*
         version: file:scope-name/ui/hello-world
     dependenciesMeta:
-      '@org/scope-name.get-hello-world':
+      '@flinten/privat-poc.get-hello-world':
         injected: true
-      '@org/scope-name.hello-world-app':
+      '@flinten/privat-poc.hello-world-app':
         injected: true
-      '@org/scope-name.my-react-env':
+      '@flinten/privat-poc.my-react-env':
         injected: true
-      '@org/scope-name.ui.hello-world':
+      '@flinten/privat-poc.ui.hello-world':
         injected: true
 
   node_modules/.bit_roots/teambit.node_node@1.0.6:
     dependencies:
+      '@flinten/privat-poc.get-hello-world':
+        specifier: workspace:*
+        version: file:scope-name/get-hello-world
+      '@flinten/privat-poc.hello-world-app':
+        specifier: workspace:*
+        version: file:scope-name/hello-world-app(react-dom@18.2.0)
+      '@flinten/privat-poc.my-react-env':
+        specifier: workspace:*
+        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
+      '@flinten/privat-poc.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
-      '@org/scope-name.get-hello-world':
-        specifier: workspace:*
-        version: file:scope-name/get-hello-world
-      '@org/scope-name.hello-world-app':
-        specifier: workspace:*
-        version: file:scope-name/hello-world-app(react-dom@18.2.0)
-      '@org/scope-name.my-react-env':
-        specifier: workspace:*
-        version: file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0)
-      '@org/scope-name.ui.hello-world':
-        specifier: workspace:*
-        version: file:scope-name/ui/hello-world
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.0
         version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -214,13 +214,13 @@ importers:
         specifier: ^18.0.0
         version: 18.2.0(react@18.2.0)
     dependenciesMeta:
-      '@org/scope-name.get-hello-world':
+      '@flinten/privat-poc.get-hello-world':
         injected: true
-      '@org/scope-name.hello-world-app':
+      '@flinten/privat-poc.hello-world-app':
         injected: true
-      '@org/scope-name.my-react-env':
+      '@flinten/privat-poc.my-react-env':
         injected: true
-      '@org/scope-name.ui.hello-world':
+      '@flinten/privat-poc.ui.hello-world':
         injected: true
 
   scope-name/get-hello-world:
@@ -21965,26 +21965,27 @@ packages:
 
   file:scope-name/get-hello-world:
     resolution: {directory: scope-name/get-hello-world, type: directory}
-    name: '@org/scope-name.get-hello-world'
+    name: '@flinten/privat-poc.get-hello-world'
     dev: false
 
   file:scope-name/hello-world-app(react-dom@18.2.0):
     resolution: {directory: scope-name/hello-world-app, type: directory}
     id: file:scope-name/hello-world-app
-    name: '@org/scope-name.hello-world-app'
+    name: '@flinten/privat-poc.hello-world-app'
     peerDependencies:
       react-dom: '*'
     peerDependenciesMeta:
       react-dom:
         optional: true
     dependencies:
+      '@flinten/privat-poc.ui.hello-world': file:scope-name/ui/hello-world
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   file:scope-name/my-react-env(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@13.4.0)(@types/node@12.20.4)(@types/react@18.2.12)(eslint@7.32.0):
     resolution: {directory: scope-name/my-react-env, type: directory}
     id: file:scope-name/my-react-env
-    name: '@org/scope-name.my-react-env'
+    name: '@flinten/privat-poc.my-react-env'
     dependencies:
       '@babel/runtime': 7.20.0
       '@mdx-js/react': 1.6.22(react@18.2.0)
@@ -22051,5 +22052,7 @@ packages:
 
   file:scope-name/ui/hello-world:
     resolution: {directory: scope-name/ui/hello-world, type: directory}
-    name: '@org/scope-name.ui.hello-world'
+    name: '@flinten/privat-poc.ui.hello-world'
+    dependencies:
+      '@flinten/privat-poc.get-hello-world': file:scope-name/get-hello-world
     dev: false

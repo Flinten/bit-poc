@@ -24,7 +24,7 @@ jobs:
         run: |
           bit lane create workflow-test-pr-1 --scope flinten.privat-poc
           bit lane show
-          bit lane rename workflow-test-pr-2
+          bit lane rename workflow-test-pr-3
           bit export     
       - name: Bit Pull Request
         uses: bit-tasks/pull-request@v1

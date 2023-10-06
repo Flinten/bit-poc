@@ -9,6 +9,18 @@
  */
 
 {
+    "apps/greetings": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "privat-poc/apps/greetings",
+        "config": {
+            "teambit.harmony/node": {},
+            "teambit.envs/envs": {
+                "env": "teambit.harmony/node"
+            }
+        }
+    },
     "get-hello-world": {
         "scope": "flinten.privat-poc",
         "version": "0.0.1",
