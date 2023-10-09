@@ -1,0 +1,33 @@
+.Almbrand {
+/*************/
+/*   COLOR   */
+/*************/
+--color-primary: #052951;
+--color-secondary: #00B9EA ;
+
+--color-black: #000000 ;
+--color-white: #FFFFFF ;
+
+--color-grey-1: #F9F9F9 ;
+--color-grey-2: #EEEFF1 ;
+--color-grey-3: #909090 ;
+
+/*************/
+/*   SPACER  */
+/*************/
+--spacer: 16px;
+--spacer-xs: --spacer * .25 ;
+--spacer-sm: --spacer * .5 ;
+--spacer-md: --spacer ;
+--spacer-lg: --spacer * 1.5 ;
+--spacer-xl: --spacer * 2 ;
+--spacer-xxl: --spacer * 4 ;
+
+/*************/
+/*TRANSITIONS*/
+/*************/
+--transition-dur: 0.3s ;
+--transition-dur-short: calc(--transition-dur / 2) ;
+--transition-dur-long: --transition-dur * 2 ;
+--transition-easing: cubic-bezier(0.55, 0.085, 0.68, 0.53) ;
+}

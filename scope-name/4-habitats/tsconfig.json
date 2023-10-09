@@ -1,0 +1,5 @@
+// bit-generated-typescript-config
+
+{
+  "extends": "./../../node_modules/.cache/tsconfig.bit.d604d779d15445313fdd141268212e14aebba152.json"
+}

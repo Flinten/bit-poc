@@ -1,0 +1,41 @@
+.Codan {
+  // New color values:
+  --color-primary: #050faa;
+  --color-secondary: #0f195a;
+  --color-primary-text: var(--color-secondary);
+  --color-secondary-text: #374151;
+  --color-tertiary-text: #6b7280;
+  --color-active: var(--color-primary);
+  --color-interactive-ui: var(--color-primary);
+  --color-link: var(--color-primary);
+
+  // OLD COLOR SETUP - WAITING FOR UI ACCEPT FOR NEW ONES
+  // --color-primary: #050faa;
+  // --color-text: black;
+  --color-primary-light: #f5f5f3;
+  --color-primary-contrast: #1e27b2;
+  // call next one secondary as well
+  // --color-primary-dark: #0f195a; // primary text
+  --color-tertiary: #ffd755;
+  --color-dark-blue: #0f185a;
+  --color-light-blue: #e6e7f6;
+  --color-light-background: #FFFFFF;
+  // --color-dark-gray: #374151; // secondary text
+  // --color-light-gray: #6b7280; // tertiary text
+
+  // Utilities colors
+  // --color-active: var(--color-primary);
+  --color-inactive: #1e27b2;
+  --color-primary-light-contrast: #b4b7e6;
+
+  // Hover colors
+  // --color-hover-tertiary: #f6d053;
+  // --color-secondary: #ffd755;
+  --color-interaction-hover: #000DD7;
+
+  // --color-bg-app: #F3f4f6;
+  --color-bg-component: white;
+  // --color-interactive-ui: var(--color-active);
+  --color-interactive-ui-hover: var(--color-inactive);
+  --color-link: #f5f5f3;
+}
