@@ -25,9 +25,11 @@ jobs:
         shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
         id: extract_branch          
-      - name: create lane
-        run: |
-          bit lane create test-casper --scope flinten.privat-poc
-          bit lane show
-          bit lane rename ${{ steps.extract_branch.outputs.branch }}
-          bit export     
+#      - name: create lane
+#        run: |
+#          bit lane create test-casper --scope flinten.privat-poc
+#          bit lane show
+#          bit lane rename ${{ steps.extract_branch.outputs.branch }}
+#          bit export  
+      - name: Bit Pull Request
+        uses: bit-tasks/pull-request@v1   
