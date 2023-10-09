@@ -27,6 +27,18 @@
         "mainFile": "index.ts",
         "rootDir": "scope-name/my-react-env"
     },
+    "ui/button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "privat-poc/ui/button",
+        "config": {
+            "teambit.react/react-env@1.0.16": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react-env"
+            }
+        }
+    },
     "ui/hello-world": {
         "scope": "flinten.privat-poc",
         "version": "0.0.1",
