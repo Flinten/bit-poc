@@ -27,6 +27,7 @@ jobs:
         id: extract_branch          
       - name: create lane
         run: |
-          bit lane create ${{ steps.extract_branch.outputs.branch }} --scope flinten.privat-poc
+          bit lane create test-casper --scope flinten.privat-poc
           bit lane show
+          bit lane rename ${{ steps.extract_branch.outputs.branch }}
           bit export     
