@@ -9,6 +9,12 @@
  */
 
 {
+    "4-habitats/theme-provider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "scope-name/4-habitats/theme-provider"
+    },
     "get-hello-world": {
         "scope": "flinten.privat-poc",
         "version": "0.0.1",
