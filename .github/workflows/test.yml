@@ -30,5 +30,3 @@ jobs:
           bit lane create ${{ steps.extract_branch.outputs.branch }} --scope flinten.privat-poc
           bit lane show
           bit export     
-      - name: Bit Pull Request
-        uses: bit-tasks/pull-request@v1
