@@ -27,9 +27,8 @@ jobs:
         id: extract_branch          
       - name: create lane
         run: |
-          bit lane create workflow-test-pr-1 --scope flinten.privat-poc
+          bit lane create ${{ steps.extract_branch.outputs.branch }} --scope flinten.privat-poc
           bit lane show
-          bit lane rename eng:${{ steps.extract_branch.outputs.branch }}
           bit export     
       - name: Bit Pull Request
         uses: bit-tasks/pull-request@v1
