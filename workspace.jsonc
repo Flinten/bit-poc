@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "flinten.scope-name",
+    "defaultScope": "flinten.privat-poc",
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
