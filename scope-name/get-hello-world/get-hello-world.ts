@@ -7,6 +7,6 @@ type Language = 'en' | 'es';
 export function getHelloWorld(language: Language = 'en') {
     if (language === 'es')
         return '¡Hola mundo!';
-    return 'Hello world!!';
+    return 'Hello world!';
 }
 
