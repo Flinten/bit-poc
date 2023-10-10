@@ -1,6 +1,6 @@
 name: Bit Init
 on:
-  workflow_dispatch:
+  workflow_call
 jobs:
   install:
     runs-on: ubuntu-latest
