@@ -39,11 +39,5 @@
             }
         }
     },
-    "ui/hello-world": {
-        "scope": "flinten.privat-poc",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "scope-name/ui/hello-world"
-    },
     "$schema-version": "16.0.0"
 }
