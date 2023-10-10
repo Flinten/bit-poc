@@ -9,8 +9,6 @@ on:
 #    types:
 #      - opened
 #      - synchronize
-permissions:
-  pull-requests: write
 jobs:
   build:
     runs-on: ubuntu-latest
