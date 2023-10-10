@@ -11,13 +11,13 @@
 {
     "get-hello-world": {
         "scope": "flinten.privat-poc",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "scope-name/get-hello-world"
     },
     "hello-world-app": {
         "scope": "flinten.privat-poc",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "scope-name/hello-world-app"
     },
@@ -29,7 +29,7 @@
     },
     "ui/button": {
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "privat-poc/ui/button",
         "config": {
@@ -41,7 +41,7 @@
     },
     "ui/hello-world": {
         "scope": "flinten.privat-poc",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "scope-name/ui/hello-world",
         "config": {}
