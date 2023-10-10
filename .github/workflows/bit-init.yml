@@ -1,6 +1,10 @@
 name: Bit Init
 on:
-  workflow_call
+  workflow_call:
+
+    secrets:
+      BIT_CONFIG_USER_TOKEN:
+        required: true
 jobs:
   install:
     runs-on: ubuntu-latest

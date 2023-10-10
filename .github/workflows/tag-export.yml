@@ -4,6 +4,7 @@ on:
 #  pull_request_target:
 #    types:
 #      - closed
+
 jobs:
   release:
     if: github.event.pull_request.merged == true
