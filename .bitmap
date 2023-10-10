@@ -44,11 +44,7 @@
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "scope-name/ui/hello-world",
-        "config": {
-            "teambit.component/remove": {
-                "removed": true
-            }
-        }
+        "config": {}
     },
     "$schema-version": "16.0.0"
 }
