@@ -1,6 +1,10 @@
 name: Bit Pull Request
 on:
-  workflow_dispatch
+  workflow_call:
+
+    secrets:
+      BIT_CONFIG_USER_TOKEN:
+        required: true
 #  pull_request:
 #    types:
 #      - opened
