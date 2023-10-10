@@ -6,7 +6,7 @@ on:
       - synchronize  
 jobs:
     start:
-      uses: Flinten/bit-poc.git/.github/workflows/bit-init.yml@tag-export  
+      uses: ./.github/workflows/bit-init.yml  
       secrets:
         BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}
 
