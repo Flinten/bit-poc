@@ -10,7 +10,6 @@ jobs:
 #        BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}
     Bit-commit-bitmap:
 #      needs: Bit-export
-      if: github.event.pull_request.merged == true  
       uses: ./.github/workflows/commit-bitmap.yml  
       secrets:
         BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}        

@@ -43,7 +43,8 @@
         "scope": "flinten.privat-poc",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "scope-name/ui/hello-world"
+        "rootDir": "scope-name/ui/hello-world",
+        "config": {}
     },
     "$schema-version": "16.0.0"
 }
