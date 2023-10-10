@@ -1,6 +1,10 @@
 name: Bit Verify
 on:
-  workflow_dispatch:
+  workflow_call:
+
+    secrets:
+      BIT_CONFIG_USER_TOKEN:
+        required: true
 jobs:
   release:
     runs-on: ubuntu-latest

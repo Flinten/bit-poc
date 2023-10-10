@@ -5,10 +5,14 @@ on:
       - opened
       - synchronize  
 jobs:
-    start:
+    Bit-init:
       uses: ./.github/workflows/bit-init.yml  
       secrets:
         BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}
+    Bit-verify:
+      uses: ./.github/workflows/verify.yml  
+      secrets:
+        BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}        
 
 
 
