@@ -13,7 +13,5 @@ jobs:
       GIT_USER_EMAIL: ${{ secrets.GIT_USER_EMAIL }}
       BIT_CONFIG_USER_TOKEN: ${{ secrets.BIT_CONFIG_USER_TOKEN }}
   start:
-    runs-on: ubuntu-latest
-    steps:    
-    - name: test    
       uses: Flinten/bit-poc.git/.github/workflows/bit-init.yml@tag-export
+
