@@ -11,9 +11,6 @@ importers:
       '@babel/runtime':
         specifier: 7.20.0
         version: 7.20.0
-      '@flinten/privat-poc.ui.hello-world':
-        specifier: 0.0.1
-        version: 0.0.1
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -115,7 +112,7 @@ importers:
         specifier: 5.9.5
         version: 5.9.5
 
-  node_modules/.bit_roots/flinten.privat-poc_hello-world-app:
+  node_modules/.bit_roots/flinten.privat-poc_hello-world-app@0.0.2:
     dependencies:
       '@flinten/privat-poc.get-hello-world':
         specifier: workspace:*
@@ -130,8 +127,8 @@ importers:
         specifier: workspace:*
         version: file:privat-poc/ui/button(react@18.2.0)
       '@flinten/privat-poc.ui.hello-world':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -178,6 +175,8 @@ importers:
         injected: true
       '@flinten/privat-poc.ui.button':
         injected: true
+      '@flinten/privat-poc.ui.hello-world':
+        injected: true
 
   node_modules/.bit_roots/flinten.privat-poc_my-react-env:
     dependencies:
@@ -193,6 +192,9 @@ importers:
       '@flinten/privat-poc.ui.button':
         specifier: workspace:*
         version: file:privat-poc/ui/button(react@18.2.0)
+      '@flinten/privat-poc.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -223,6 +225,8 @@ importers:
         injected: true
       '@flinten/privat-poc.ui.button':
         injected: true
+      '@flinten/privat-poc.ui.hello-world':
+        injected: true
 
   node_modules/.bit_roots/teambit.envs_env:
     dependencies:
@@ -238,6 +242,9 @@ importers:
       '@flinten/privat-poc.ui.button':
         specifier: workspace:*
         version: file:privat-poc/ui/button(react@18.2.0)
+      '@flinten/privat-poc.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
     dependenciesMeta:
       '@flinten/privat-poc.get-hello-world':
         injected: true
@@ -246,6 +253,8 @@ importers:
       '@flinten/privat-poc.my-react-env':
         injected: true
       '@flinten/privat-poc.ui.button':
+        injected: true
+      '@flinten/privat-poc.ui.hello-world':
         injected: true
 
   node_modules/.bit_roots/teambit.node_node@1.0.6:
@@ -262,6 +271,9 @@ importers:
       '@flinten/privat-poc.ui.button':
         specifier: workspace:*
         version: file:privat-poc/ui/button(react@18.2.0)
+      '@flinten/privat-poc.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -289,6 +301,8 @@ importers:
         injected: true
       '@flinten/privat-poc.ui.button':
         injected: true
+      '@flinten/privat-poc.ui.hello-world':
+        injected: true
 
   node_modules/.bit_roots/teambit.react_react-env@1.0.16:
     dependencies:
@@ -304,6 +318,9 @@ importers:
       '@flinten/privat-poc.ui.button':
         specifier: workspace:*
         version: file:privat-poc/ui/button(react@18.2.0)
+      '@flinten/privat-poc.ui.hello-world':
+        specifier: workspace:*
+        version: file:scope-name/ui/hello-world
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -333,6 +350,8 @@ importers:
       '@flinten/privat-poc.my-react-env':
         injected: true
       '@flinten/privat-poc.ui.button':
+        injected: true
+      '@flinten/privat-poc.ui.hello-world':
         injected: true
 
   privat-poc/ui/button:
@@ -405,9 +424,6 @@ importers:
 
   scope-name/hello-world-app:
     dependencies:
-      '@flinten/privat-poc.ui.hello-world':
-        specifier: 0.0.1
-        version: 0.0.1
       '@mdx-js/react':
         specifier: 1.6.22
         version: 1.6.22(react@18.2.0)
@@ -517,6 +533,46 @@ importers:
         version: 17.0.21
       '@types/testing-library__jest-dom':
         specifier: 5.9.5
+        version: 5.9.5
+
+  scope-name/ui/hello-world:
+    dependencies:
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.0
+        version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
+      graphql:
+        specifier: 15.8.0
+        version: 15.8.0
+      jest:
+        specifier: 29.3.1
+        version: 29.3.1(@types/node@12.20.4)
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: 6.8.1
+        version: 6.8.1(react-dom@18.2.0)(react@18.2.0)
+    devDependencies:
+      '@testing-library/react':
+        specifier: ^13.4.0
+        version: 13.4.0(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.5
+      '@types/react':
+        specifier: 18.2.12
+        version: 18.2.12
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.8
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
         version: 5.9.5
 
 packages:
@@ -6238,16 +6294,6 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
-
-  /@flinten/privat-poc.get-hello-world@0.0.1:
-    resolution: {integrity: sha512-SqO+sHiPkzHVQQOQCAEENbbD0/Twl2nS2usUyxnEOG2ub2g6iMENz4D4PXpu7UVXI3E386EtmNdX3ejO306WOw==}
-    dev: false
-
-  /@flinten/privat-poc.ui.hello-world@0.0.1:
-    resolution: {integrity: sha512-sZHw/+IctAYOhI26gH1oUAWORQ0FlRKtPjoP0926qJB2ffNYEi/9KFYIsHQacFGbouGeE1KXPAH7Ir8CjK5ulA==}
-    dependencies:
-      '@flinten/privat-poc.get-hello-world': 0.0.1
-    dev: false
 
   /@hapi/bourne@2.1.0:
     resolution: {integrity: sha512-i1BpaNDVLJdRBEKeJWkVO6tYX6DMFBuwMhSuWqLsY4ufeTKGVuV5rBsUhxPayXqnnWHgXUAmWK16H/ykO5Wj4Q==}
@@ -21903,7 +21949,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@flinten/privat-poc.ui.hello-world': 0.0.1
+      '@flinten/privat-poc.ui.hello-world': file:scope-name/ui/hello-world
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
@@ -21973,4 +22019,11 @@ packages:
       - webpack-dev-server
       - webpack-hot-middleware
       - webpack-plugin-serve
+    dev: false
+
+  file:scope-name/ui/hello-world:
+    resolution: {directory: scope-name/ui/hello-world, type: directory}
+    name: '@flinten/privat-poc.ui.hello-world'
+    dependencies:
+      '@flinten/privat-poc.get-hello-world': file:scope-name/get-hello-world
     dev: false
