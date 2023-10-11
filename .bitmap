@@ -10,41 +10,40 @@
 
 {
     "get-hello-world": {
+        "name": "get-hello-world",
         "scope": "flinten.privat-poc",
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "scope-name/get-hello-world"
     },
     "hello-world-app": {
+        "name": "hello-world-app",
         "scope": "flinten.privat-poc",
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "scope-name/hello-world-app"
     },
     "my-react-env": {
+        "name": "my-react-env",
         "scope": "flinten.privat-poc",
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "scope-name/my-react-env"
     },
     "ui/button": {
-        "scope": "",
-        "version": "",
+        "name": "ui/button",
+        "scope": "flinten.privat-poc",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "privat-poc/ui/button",
-        "config": {
-            "teambit.react/react-env@1.0.16": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            }
-        }
+        "rootDir": "privat-poc/ui/button"
     },
     "ui/hello-world": {
+        "name": "ui/hello-world",
         "scope": "flinten.privat-poc",
         "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "scope-name/ui/hello-world",
         "config": {}
     },
-    "$schema-version": "16.0.0"
+    "$schema-version": "17.0.0"
 }
